@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".CocktailDetails">
+
+    <TextView
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:id="@+id/textViewCocktailNameD"
+        android:layout_margin="10dp"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:text="TextView" />
+
+    <ImageView
+        android:id="@+id/imageViewCocktailD"
+        android:layout_width="375dp"
+        android:layout_height="288dp"
+        android:layout_marginRight="200dp"
+        app:srcCompat="@drawable/ic_launcher_background" />
+
+    <TextView
+        android:id="@+id/textViewDescriptionD"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_margin="15dp"
+        android:layout_marginTop="50dp"
+        android:text="TextView"
+        android:textColor="@color/black"
+        android:textSize="15dp" />
+
+</LinearLayout>
